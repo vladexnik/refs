@@ -18,7 +18,7 @@ class Form extends Component {
 
     focusOnFirst=()=>{
         if(this.myRef){
-            this.myRef.current.focus();
+            this.myRef.focus();
         }
     }
 
@@ -55,9 +55,11 @@ class Form extends Component {
 //     }
 // }
 
+
 function App() {
     return (
         <Form/>
+        
     );
 }
 
